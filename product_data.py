@@ -1,14 +1,14 @@
 import sqlite3 as sql
 
 connection=sql.connect("Product.db")
-connection.execute('''create table Product_data(
-                        Product_Code integer,
-                        Product_name text,
-                        Product_price integer,
-                        Distributor_name text,
-                        manufacturer_name text
-                        );''')
-print("Table is created successfully")
+#connection.execute('''create table product data(
+#                        Product_Code integer,
+#                        Product_name text,
+#                        Product_price integer,
+#                        Distributor_name text,
+#                        manufacturer_name text
+#                       );''')
+#print("Table is created successfully")
 
 getProductCode=input("Enter the Product code :")
 getProductName=input("Enter the Product name :")
